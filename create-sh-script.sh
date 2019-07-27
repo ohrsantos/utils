@@ -23,3 +23,5 @@ echo 'CHANGE_AUTHOR="Orlando Hehl Rebelo dos Santos"' >> $NEW_SCRIPT
 echo "DATE_INI=\"$(date +%d-%m-%Y)\"" >> $NEW_SCRIPT
 echo "DATE_END=\"$(date +%d-%m-%Y)\"" >> $NEW_SCRIPT
 echo '##############################################################################################################' >> $NEW_SCRIPT
+
+chmod +x $NEW_SCRIPT
